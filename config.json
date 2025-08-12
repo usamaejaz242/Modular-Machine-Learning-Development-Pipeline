@@ -1,0 +1,22 @@
+{
+    "Project_Name": "xgb_model",
+
+    "server": "100.100.120.117",
+    "database": "dd_ds",
+    "username": "ahmad_ai",
+    "password": "Xk7@pL$3#qW2!nR6",
+
+    "Query": "SELECT * FROM PLAN_DORMANCY_ADS",
+
+    "SQL_CSV": 1,
+    "Feature_Engineering": 0,
+    "Normalization": 1,
+    "custom_threshold": 0.8,
+
+    "Production_Query": "SELECT * FROM THM_NETWORK_CHURN_30DYS_PRODUCTION",
+
+    "Run_XGBoost": 1,
+    "Run_LSTM": 0,
+    "Run_RNN": 0,
+    "Run_NN": 0
+}
